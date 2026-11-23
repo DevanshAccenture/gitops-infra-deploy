@@ -12,6 +12,6 @@ resource "aws_s3_bucket" "demo" {
   bucket = "devansh-p18-gitops-demo-590507089733"
   tags = {
     Project = "p18-gitops"
-    Version = "v1"
+    Version = "v2"
   }
 }
